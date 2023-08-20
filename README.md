@@ -8,3 +8,7 @@ Some important notes:
 * Credit unions vary in member bases, target markets, local economies, missions, and strategies and therefore it makes sense to carefully select a group of peers
 
 Using a balanced scorecard can be a useful management tool to help identify strengths and improvement opportunities. 
+
+## Basic code file description:
+* **call_report_scorecard_data**: pulls data from ncua.gov and selects targeted fields for use in your scorecard file.
+* **callreport_scorecard**: uses the csv output from the call_report_scorecard_data code, adds new fields focused on creating scorecard metrics, score the scorecard metrics on a 1-5 scale, creates an overall weighted score, and charts the results. 
